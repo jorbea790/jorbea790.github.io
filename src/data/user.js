@@ -18,7 +18,9 @@ const INFO = {
 	homepage: {
 		title: "Full-stack engineer and aspiring machine learning practitioner.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a full-stack engineer currently working as a cloud application developer to build systems "
+			+"for source code automation and workflow orchestration. My work leverages Kubernetes, Go, Python, "
+			+"and AWS as the primary cloud service provider.",
 	},
 
 	about: {
