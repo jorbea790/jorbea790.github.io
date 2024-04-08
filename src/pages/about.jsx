@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
+import Works from "../components/homepage/works";
 import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
@@ -48,22 +49,28 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+								<div className="homepage-works">
+									<Works />
+								</div>
+								<div className="about-socials">
+									<Socials />
+								</div>
 							</div>
 
 							<div className="about-left-side">
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.png"
+											src="about.jpeg"
 											alt="about"
 											className="about-image"
 										/>
 									</div>
 								</div>
 
-								<div className="about-socials">
+								{/* <div className="about-socials">
 									<Socials />
-								</div>
+								</div> */}
 							</div>
 						</div>
 						<div className="about-socials-mobile">

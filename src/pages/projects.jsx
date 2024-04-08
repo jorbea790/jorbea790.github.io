@@ -39,11 +39,11 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							My tinkerings...
+							Hobby Projects
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							Coming Soon...
+							{/* Coming Soon... */}
 						</div>
 
 						<div className="projects-list">

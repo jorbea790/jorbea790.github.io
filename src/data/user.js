@@ -16,7 +16,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack engineer and aspiring machine learning practitioner.",
+		title: "Full-stack engineer and aspiring machine learning practitioner...",
 		description:
 			"I am a full-stack engineer currently working as a cloud application developer to build systems "
 			+"for source code automation and workflow orchestration. My work leverages Kubernetes, Go, Python, "
@@ -24,9 +24,9 @@ const INFO = {
 	},
 
 	about: {
-		title: "Hi, I’m Jordan, a full-stack engineer based in Graham, NC.",
+		title: "Hi, I’m Jordan!",
 		description:
-			"<DESCRIPTION>",
+			"I'm a full-stack engineer based in Graham, NC.",
 	},
 
 	articles: {
@@ -37,9 +37,9 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Project 1: Computer Vision",
 			description:
-				"Coming Soon...",
+				"Architecture Image Classifier",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com",
