@@ -16,7 +16,8 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 // import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
-import AllProjects from "../components/projects/allProjects";
+// import AllProjects from "../components/projects/allProjects";
+import ProjectsPreview from "../components/homepage/projectsPreview";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -185,10 +186,9 @@ const Homepage = () => {
 							<div className="homepage-works">
 								<Works />
 							</div>
-
 							<div className="homepage-projects">
-								<AllProjects />
-							</div>
+        						<ProjectsPreview />
+    						</div>
 						</div>
 
 						<div className="page-footer">

@@ -29,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2024 Jordan Bean. All Rights Reserved.
+						© 2025 Jordan Bean. All Rights Reserved.
 					</div>
 				</div>
 			</div>

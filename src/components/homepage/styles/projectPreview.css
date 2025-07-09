@@ -1,0 +1,12 @@
+.footer-nav-link-item,
+.footer-nav-link-item a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-nav-link-item:hover,
+.footer-nav-link-item a:hover {
+    color: #1db954; /* Use your site's green */
+    text-decoration: underline;
+}

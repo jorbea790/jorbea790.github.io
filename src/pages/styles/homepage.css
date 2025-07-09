@@ -70,13 +70,17 @@
 }
 
 .homepage-after-title {
-	display: flex;
+    display: flex;
+    justify-content: left; /* center the cards horizontally */
+    gap: 3rem; /* space between the cards */
+    align-items: flex-start; /* align cards to the top */
+    margin-top: 2rem;
 }
 
-.homepage-projects {
+/* .homepage-projects {
 	flex-basis: 500px;
 	padding-left: 100px;
-}
+} */
 
 .homepage-articles {
 	flex-basis: 900px;
@@ -88,10 +92,10 @@
 	padding-bottom: 5px;
 }
 
-.homepage-works {
+/* .homepage-works {
 	flex-basis: 600px;
 	padding-top: 30px;
-}
+} */
 
 @media (max-width: 1024px) {
 	.homepage-first-area {
@@ -134,17 +138,23 @@
 		flex-direction: column;
 	}
 
-	.homepage-projects {
+	/* .homepage-projects {
 		flex-basis: auto;
-	}
+	} */
 
 	.homepage-articles {
 		flex-basis: auto;
 	}
 
-	.homepage-works {
+	/* .homepage-works {
 		flex-basis: auto;
 		margin-left: -25px;
 		margin-right: -25px;
+	} */
+
+	.homepage-works,
+	.homepage-projects {
+		flex: 1 1 0;
+		max-width: 500px; /* or whatever width fits your design */
 	}
 }
